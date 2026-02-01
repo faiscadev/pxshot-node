@@ -1,5 +1,5 @@
 {
-  "name": "@faiscadev/pxshot",
+  "name": "pxshot",
   "version": "1.0.0",
   "description": "Official Node.js/TypeScript SDK for Pxshot - Screenshot API",
   "author": "Pxshot",
@@ -59,8 +59,5 @@
     "typescript": "^5.3.3",
     "vitest": "^1.1.0"
   },
-  "sideEffects": false,
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  }
+  "sideEffects": false
 }

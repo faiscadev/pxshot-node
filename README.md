@@ -73,6 +73,7 @@ const buffer = await client.screenshot({
   wait_for_selector: '#content', // Wait for element
   wait_for_timeout: 2000, // Wait in ms
   device_scale_factor: 2, // Retina scale
+  block_ads: true, // Block ads and trackers
 });
 ```
 

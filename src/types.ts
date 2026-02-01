@@ -32,6 +32,8 @@ export interface ScreenshotOptionsBase {
   wait_for_timeout?: number;
   /** Device scale factor for retina (default: 1) */
   device_scale_factor?: number;
+  /** Block ads and trackers (default: false) */
+  block_ads?: boolean;
 }
 
 /**
